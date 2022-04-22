@@ -28,7 +28,7 @@ public class TorpedoStore {
     }
   }
 
-  Random generator = new Random();
+  private Random generator = new Random();
 
   public boolean fire(int numberOfTorpedos){
     if(numberOfTorpedos < 1 || numberOfTorpedos > this.torpedoCount){
